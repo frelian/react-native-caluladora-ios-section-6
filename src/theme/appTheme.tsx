@@ -9,16 +9,17 @@ export const styles = StyleSheet.create({
         flex: 1,
         paddingHorizontal: 20,
         justifyContent: 'flex-end'
-    }, 
+    },
     resultado: {
         color: 'white',
         fontSize: 60,
-        textAlign: "right",
+        textAlign: 'right',
+        marginBottom: 10
     },
     resultadoPequeno: {
         color: 'rgba(255,255,255, 0.5)',
         fontSize: 30,
-        textAlign: "right",
+        textAlign: 'right',
     },
     fila: {
         flexDirection: 'row',
@@ -35,7 +36,9 @@ export const styles = StyleSheet.create({
         marginHorizontal: 10
     },
     botonTexto: {
-        textAlign: "center",
+        textAlign: 'center',
+        //alignContent: 'center',
+        //left: 2,
         padding: 10,
         fontSize: 30,
         color: 'white',
