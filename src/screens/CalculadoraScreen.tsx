@@ -128,6 +128,36 @@ export const CalculadoraScreen = () => {
         ultimaOperacion.current = Operadores.sumar;
     }
 
+    // clase 94
+    const calcular = () => {
+
+        // casteo a Number para poder operar
+        const num1 = Number( numero );
+        const num2 = Number( numeroAnterior );
+
+        switch ( ultimaOperacion.current ) {
+            case Operadores.sumar:
+                setNumero( `${ num1 + num2 }` );
+                break;
+
+            case Operadores.restar:
+                setNumero( `${ num2 - num1 }` );
+                break;
+                
+            case Operadores.multiplicar:
+                setNumero( `${ num1 * num2 }` );
+                break;
+
+            case Operadores.dividir:
+                setNumero( `${ num2 / num1 }` );
+                break;
+        
+            
+        }
+
+        setNumeroAnterior('0');
+    }
+
 
     return (
 
@@ -187,7 +217,7 @@ export const CalculadoraScreen = () => {
                 {/* Si la propiedad es ancho={ true } typescript es lo mismo que solo poner ancho */}
                 <BotonCalc texto="0" ancho accion={ armarNumero } />
                 <BotonCalc texto="." accion={ armarNumero } />
-                <BotonCalc texto="=" color="#FF9427" accion={ limpiar } />
+                <BotonCalc texto="=" color="#FF9427" accion={ calcular } />
             </View>
 
         </View>
