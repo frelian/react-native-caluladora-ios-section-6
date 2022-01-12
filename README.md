@@ -8,3 +8,4 @@
 ### 89. Terminar todos los botones y el estilo de la calculadora
 ### 90. Construir el número base
 ### 91. Consideraciones para armar el número
+### 92. Actividad - botón de borrar última entrada
