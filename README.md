@@ -11,3 +11,4 @@
 ### 92. Actividad - botón de borrar última entrada
 ### 93. Botones de operaciones aritméticas (uso de enumeraciones y de useRef)
 ### 94. Realizar el cálculo matemático
+### 95. Refactorizacion del codigo, Custom Hook: useCalculadora (fin de la app)
