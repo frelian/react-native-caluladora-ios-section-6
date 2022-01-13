@@ -12,3 +12,6 @@
 ### 93. Botones de operaciones aritméticas (uso de enumeraciones y de useRef)
 ### 94. Realizar el cálculo matemático
 ### 95. Refactorizacion del codigo, Custom Hook: useCalculadora (fin de la app)
+### Se agregan los iconos y la estructura en los archivos para generar el apk:
+* Archivo: /android/gradle.properties
+* Archivo: /android\app\build.gradle 
